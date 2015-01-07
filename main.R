@@ -18,10 +18,5 @@ r2 <- r
 r2[] <- (1:ncell(r2)) / 10
 # Performs the calculation
 r3 <- minusRaster(r, r2, plot=T) 
-git config --global user.email "robmaas77@hotmail.com"
-git config --global user.name "Rob Maas"
-Run
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-
+print("second commit")
